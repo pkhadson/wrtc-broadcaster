@@ -1,0 +1,22 @@
+{
+  "name": "wrtc-broadcast",
+  "version": "1.0.3",
+  "description": "Simple low latency audio and video broadcasting application using WebRTC",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Web",
+    "Audio"
+  ],
+  "author": "Patrick Hadson <pkhadson@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "uuid": "^3.3.2",
+    "wrtc": "^0.4.3"
+  }
+}
